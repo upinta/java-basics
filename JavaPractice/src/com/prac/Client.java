@@ -3,8 +3,9 @@ package com.prac;
 public class Client {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("hello");
+		Student s = new Student(10, "upinta");
+		s.display();
+		s.sayHello("Avyaan");
 	}
 
 }
