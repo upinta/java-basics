@@ -1,7 +1,7 @@
 package com.deep.copy;
 
 
-public class Person {
+class Person {
 	String name;
 	Address address;
 	
