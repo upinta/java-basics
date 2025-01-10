@@ -1,13 +1,15 @@
-package design.pattern.adaptor.v1;
+package design.pattern.adaptor.V2;
+
+import design.pattern.adaptor.V2.BankAPI;
+import design.pattern.adaptor.V2.FastTag;
+import design.pattern.adaptor.V2.UPI;
 
 public class PhonePay {
-    private BankAPI bankapi;
-    private FastTag fastTag;
-    private UPI upi;
+    private design.pattern.adaptor.V2.BankAPI bankapi;
+    private design.pattern.adaptor.V2.FastTag fastTag;
+    private design.pattern.adaptor.V2.UPI upi;
     public PhonePay(BankAPI bankapi) {
-        this.bankapi = bankapi;
-        upi = new UPI();
-        fastTag = new FastTag();
+
     }
 
     public boolean rechargeFastTag(int amount){

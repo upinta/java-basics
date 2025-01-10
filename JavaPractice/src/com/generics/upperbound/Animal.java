@@ -1,5 +1,9 @@
 package com.generics.upperbound;
 
+import java.util.Optional;
+import java.util.OptionalInt;
+import java.util.function.*;
+
 public class Animal {
     private String name;
 
