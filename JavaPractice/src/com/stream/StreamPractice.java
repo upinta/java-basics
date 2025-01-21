@@ -65,7 +65,7 @@ public class StreamPractice {
         List<Integer> numListDistinct = listOfDuplicates.stream().distinct().toList();
         System.out.println(numListDistinct);
 
-        listOfDuplicates.stream().all
+        //listOfDuplicates.stream().
 
 
 
